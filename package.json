@@ -1,5 +1,5 @@
 {
-  "name": "nodejstemplate",
+  "name": "web",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "start": "lite-server"
   },
   "keywords": [],
-  "author": "",
+  "author": "Borbély Gergő Árpád",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.3"
