@@ -1,18 +1,70 @@
+<!--
+* File: index.html
+* Author: Borbély Gergő Árpád
+* Copyright: 2023, Borbély Gergő Árpád
+* Date: 2023-05-19
+* Web: https://github.com/Gergo06-py/ships
+* Licenc: MIT
+-->
+
 <!DOCTYPE html>
 <html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ships</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <h1>Ships</h1>
+      <header>
+        <h1 class="text-center">Ships</h1>
+        <div class="col col-md-6">
+          <table class="table mt-3">
+            <tbody>
+              <tr>
+                <th class="table-active">Név</th>
+                <td>Borbély Gergő Árpád</td>
+              </tr>
+              <tr>
+                <th class="border-end">Csoportkód/Osztály</th>
+                <td>Szoft, I-2/N.</td>
+              </tr>
+              <tr>
+                <th class="table-active">Készítés dátuma</th>
+                <td>2023. 05. 19.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </header>
+
+      <hr>
+
+      <main class="mt-5">
+        <div class="col col-md-6">
+          <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Név</th>
+                    <th>Méret (cm)</th>
+                    <th>Ár</th>
+                    <th>Személyek száma</th>
+                    <th>Utánfutó</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+          </table>
+        </div>
+      </main>
+
+      <footer class="position-absolute bottom-0">
+        <p><u>Egy rövid idézet:</u> A sikertől nem kell félni, de szégyellni sem szabad. Ha valakinek sikere van, az azért van, mert valamilyen módon örömet szerez az embereknek.</p>
+      </footer>
     </div>
 
     <script src="js/bootstrap.js"></script>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
